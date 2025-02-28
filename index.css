@@ -1,0 +1,48 @@
+body {
+    
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.score {
+    
+    background: black;
+    font-size: 80px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    color: #f94f6d;
+    font-family: Cursed;
+}
+
+button {
+    
+    background: none;
+    font-family: Cursed;
+    font-size: 15px;
+    color: #9aabd8;
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+}
+
+button::hover {
+    
+    text-shadow: 10px 10px 10px black;
+}
+
+@font-face {
+    
+    src: url("CursedTimerUlil.ttf");
+    font-family: Cursed;
+}
+
